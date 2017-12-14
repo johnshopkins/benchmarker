@@ -39,6 +39,7 @@ class Benchmarker
   public function log($task, $start = false)
   {
     $new = microtime(true);
+
     $starting = $start ? $this->start : $this->current;
     $time = number_format($new - $starting, 10);
 
