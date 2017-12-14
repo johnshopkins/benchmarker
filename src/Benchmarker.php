@@ -2,8 +2,6 @@
 
 namespace Benchmarker;
 
-<?php
-
 class Benchmarker
 {
   /**
